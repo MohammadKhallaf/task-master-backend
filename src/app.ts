@@ -2,7 +2,7 @@ import cors from "cors";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 import { connectDB } from "./config/database";
-import { specs } from "./swagger";
+import { specs } from "./config/swagger";
 
 const app = express();
 
